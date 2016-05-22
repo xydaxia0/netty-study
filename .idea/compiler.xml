@@ -26,8 +26,8 @@
         <module name="netty5.0-study" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="netty5.0-study" target="1.5" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="netty5.0-study" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
