@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02b03cf7-d6f1-4af4-b54e-25ce42a5a4d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeClientHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeServerHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimerServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/delimiter/netty/EchoServer.java" />
     </list>
     <ignored path="netty-study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineBasedTimeServerHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LineBasedTimeServerHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86" vertical-offset="98" max-vertical-offset="968">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="968">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,12 +125,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultChannelHandlerContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/reposity/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/DefaultChannelHandlerContext.class">
+      <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/delimiter/netty/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.32" vertical-offset="4704" max-vertical-offset="8206">
-              <caret line="262" column="33" selection-start-line="262" selection-start-column="33" selection-end-line="262" selection-end-column="33" />
-              <folding />
+            <state vertical-scroll-proportion="1.176" vertical-offset="468" max-vertical-offset="1254">
+              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1180#1684#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,6 +166,7 @@
         <option value="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeClient.java" />
         <option value="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeClientHandler.java" />
         <option value="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/delimiter/netty/EchoServer.java" />
       </list>
     </option>
   </component>
@@ -354,6 +355,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty5.0-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -816,12 +851,12 @@
       <workItem from="1463847340950" duration="727000" />
       <workItem from="1463894499460" duration="1308000" />
       <workItem from="1463898670363" duration="9520000" />
-      <workItem from="1463929203014" duration="1846000" />
+      <workItem from="1463929203014" duration="3485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14602000" />
+    <option name="totallyTimeSpent" value="16241000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1139,6 +1174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.48" vertical-offset="168" max-vertical-offset="990">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,10 +1318,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/linebased/netty/LineBasedTimeServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86" vertical-offset="98" max-vertical-offset="968">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="968">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty5.0-study/src/main/java/com/craft/venus/delimiter/netty/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.176" vertical-offset="468" max-vertical-offset="1254">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1684#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
           </folding>
         </state>
       </provider>
