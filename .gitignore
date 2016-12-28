@@ -2,3 +2,14 @@
 .gitignore
 netty5.0-study/target/classes/com/craft/venus/fixedLengthDecoder/
 netty5.0-study/target/generated-sources/
+*svn*
+*iml
+.classpath
+.project
+.settings/
+build/
+target/
+.mymetadata
+bin/
+.idea/
+
